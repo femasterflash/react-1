@@ -1,0 +1,6 @@
+.banner {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: clamp(20px, 6vw, 50px);
+}

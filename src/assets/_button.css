@@ -1,0 +1,24 @@
+.btn-contato {
+  padding: 5px 10px;
+  background-color: var(--color-primary);
+  color: white;
+  border: none;
+  width: clamp(100px, 15vw, 115px);
+  height: clamp(30px, 3vw, 40px);
+  border-radius: clamp(5px, 1vw, 10px);
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+}
+
+.btn-contato:hover {
+  background-color: var(--color-primary-hover);
+  cursor: pointer;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  margin: 0 20px;
+}

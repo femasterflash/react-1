@@ -1,0 +1,35 @@
+@import url(_button.css);
+@import url(_banner.css);
+
+:root {
+  --color-primary: #6880FF;
+  --color-primary-hover: #7C91FF;
+}
+
+.container {
+  margin: 0 10%;
+}
+
+.color-white {
+  color: white;
+}
+
+h1 {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+}
+
+h2 {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  margin-bottom: 1rem;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: clamp(0.8rem, 2vw, 1rem);
+}
