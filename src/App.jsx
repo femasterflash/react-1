@@ -1,5 +1,7 @@
 import Header from './components/Header'
 import Banner from './components/Banner'
+import AboutMe from './components/AboutMe'
+import Tec from './components/Tecnologias'
 
 function App() {
 
@@ -7,6 +9,9 @@ function App() {
     <>
       <Header />
       <Banner />
+      <AboutMe />
+
+      <Tec />
     </>
   )
 }
